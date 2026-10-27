@@ -102,3 +102,6 @@ entry_fis.grid(row=2, column=1, pady=8, padx=10)[cite: 4]
 tk.Label(frame_form, text="Nilai Bahasa Inggris:", font=("Arial", 11), bg="#282a36", fg="#f8f8f2").grid(row=3, column=0, sticky="w", pady=8)[cite: 4]
 entry_ing = tk.Entry(frame_form, font=("Arial", 11), width=22)[cite: 4]
 entry_ing.grid(row=3, column=1, pady=8, padx=10)[cite: 4]
+
+btn_submit = tk.Button(root, text="Submit & Prediksi", font=("Arial", 11, "bold"), bg="#44475a", fg="white", relief="flat", width=22, command=submit_nilai)[cite: 4]
+btn_submit.pack(pady=15)[cite: 4]
