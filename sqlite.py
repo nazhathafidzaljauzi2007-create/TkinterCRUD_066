@@ -105,3 +105,6 @@ entry_ing.grid(row=3, column=1, pady=8, padx=10)[cite: 4]
 
 btn_submit = tk.Button(root, text="Submit & Prediksi", font=("Arial", 11, "bold"), bg="#44475a", fg="white", relief="flat", width=22, command=submit_nilai)[cite: 4]
 btn_submit.pack(pady=15)[cite: 4]
+
+btn_submit.bind("<Enter>", on_enter)[cite: 4]
+btn_submit.bind("<Leave>", on_leave)[cite: 4]
