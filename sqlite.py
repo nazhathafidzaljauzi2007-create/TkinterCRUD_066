@@ -94,3 +94,7 @@ entry_nama.grid(row=0, column=1, pady=8, padx=10)[cite: 4]
 tk.Label(frame_form, text="Nilai Biologi:", font=("Arial", 11), bg="#282a36", fg="#f8f8f2").grid(row=1, column=0, sticky="w", pady=8)[cite: 4]
 entry_bio = tk.Entry(frame_form, font=("Arial", 11), width=22)[cite: 4]
 entry_bio.grid(row=1, column=1, pady=8, padx=10)[cite: 4]
+
+tk.Label(frame_form, text="Nilai Fisika:", font=("Arial", 11), bg="#282a36", fg="#f8f8f2").grid(row=2, column=0, sticky="w", pady=8)[cite: 4]
+entry_fis = tk.Entry(frame_form, font=("Arial", 11), width=22)[cite: 4]
+entry_fis.grid(row=2, column=1, pady=8, padx=10)[cite: 4]
