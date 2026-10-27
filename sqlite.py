@@ -73,4 +73,10 @@ def on_leave(e):
     btn_submit["bg"] = "#44475a"
     btn_submit["fg"] = "white"
 
-    
+    create_db()
+
+root = tk.Tk()
+root.title("Aplikasi Prediksi Fakultas Siswa")
+root.geometry("400x420")
+root.config(bg="#282a36")
+root.resizable(False, False)
