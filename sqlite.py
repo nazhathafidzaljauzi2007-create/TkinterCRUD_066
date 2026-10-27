@@ -83,3 +83,6 @@ root.resizable(False, False)
 
 label_title = tk.Label(root, text="Prediksi Fakultas Siswa", font=("Arial", 16, "bold"), bg="#282a36", fg="#f8f8f2")
 label_title.pack(pady=20)
+
+frame_form = tk.Frame(root, bg="#282a36")
+frame_form.pack(pady=10)
