@@ -56,3 +56,11 @@ def submit_nilai():
     """, (nama, bio, fis, ing, hasil_prediksi))
     conn.commit()
     conn.close()
+
+    messagebox.showinfo("Sukses", f"Data berhasil disimpan!\nPrediksi Fakultas: {hasil_prediksi}")
+
+    # reset form input
+    entry_nama.delete(0, tk.END)
+    entry_bio.delete(0, tk.END)
+    entry_fis.delete(0, tk.END)
+    entry_ing.delete(0, tk.END)
