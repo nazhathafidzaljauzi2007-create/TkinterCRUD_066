@@ -80,3 +80,6 @@ root.title("Aplikasi Prediksi Fakultas Siswa")
 root.geometry("400x420")
 root.config(bg="#282a36")
 root.resizable(False, False)
+
+label_title = tk.Label(root, text="Prediksi Fakultas Siswa", font=("Arial", 16, "bold"), bg="#282a36", fg="#f8f8f2")
+label_title.pack(pady=20)
